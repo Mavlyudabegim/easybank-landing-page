@@ -1,0 +1,300 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+}
+p{
+	color:rgba(149, 151, 165, 1);
+}
+.navbar{
+	padding: 32px 165px;
+	font-size: 14px;
+	background-color: #fff;
+
+}
+
+.nav-item{
+	margin:0 30px 0 0 ;
+	
+	
+}
+.navbar-nav{
+	margin: 0 250px;
+}
+.nav-link{
+	color: rgba(149, 151, 165, 1);
+	
+}
+
+
+
+.bottom-border{
+	
+	display: none;
+	
+}
+.nav-link:hover{
+	color: #2D314D;
+	transition: 0.1s ease-in;
+	
+	
+}
+.nav-link:hover .bottom-border{
+	width: 80%;
+	height: 4px;
+	background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+	bottom: -120%;
+	display: block;
+	
+}
+.btn{
+	background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+	padding: 8px 36px;
+	color: #fff;
+	border-radius: 22px;
+	font-size: 14px;
+	transition: 0.2s ease-out;
+
+}
+.btn:hover{
+	color: white;
+	opacity: 0.4;
+	
+	
+}
+
+main{
+	padding-left: 165px;
+	background-color: #F2F2F2;
+	background-image: url('./img/iPhone-X-Mockup (2).png'), url('./img/hero-desktop-bg.png');
+	background-repeat: no-repeat;
+	background-position: right 120px top -80px , right -100px;
+	background-size: 280px 438px , 900px 956px;
+	position: relative;
+}
+.left{
+	
+	padding-top: 170px;
+	padding-bottom: 170px;
+}
+.main-title{
+	font-size: 56px;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+
+}
+.main-text{
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 24px;
+	margin-bottom: 36px;
+	padding: 0;
+
+}
+
+.first-phone{
+	position: absolute;
+	top: 20%;
+	right: 0;
+}
+.second-phone{
+	position: absolute;
+	top: 50%;
+	right: 120px;
+	
+}
+.third-phone{
+	position: absolute;
+	top: 20%;
+	right: 380px;
+}
+.easybank-choice{
+	background-color: rgba(244, 245, 247, 1);
+	padding: 96px 165px;
+
+}
+.easybank-choice-title{
+	font-size: 40px;
+	font-weight: 100;
+}
+.easybank-choice-text{
+	width: 635px;}
+.easybank-choice-text p{
+	font-size: 18px;
+	margin-top: 16px;
+	margin-bottom: 72px;
+}
+
+
+.reason-title{
+	font-size: 24px;
+	font-weight: 100;
+	margin-bottom: 26px;
+	margin-top: 40px;
+}
+.latest-articles{
+	padding: 96px 165px;
+	background-color: #F2F2F2;
+}
+.articles{
+	margin-top: 40px;
+
+}
+.article-item{
+	width: 255px;
+	background-color: #fff;
+	border-radius: 5px;
+
+}
+.article-text-section{
+	padding: 25px;
+}
+.author{
+	font-size: 10px;
+	font-weight: 400;
+	color: rgba(149, 151, 165, 1);
+}
+.article-title{
+	font-size: 16px;
+	font-weight: 100;
+	margin:8px 0;
+}
+.text-decoration-none{
+	color: #2D314D;
+}
+.text-decoration-none:hover{
+	color: #30C88F;
+	cursor: pointer;
+}
+.article-text{
+	font-size: 13px;
+}
+
+footer{
+	background-color: rgba(45, 49, 77, 1);
+	padding: 48px 165px;
+}
+.fab{
+	
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	transition: 0.1s ease-in;
+
+}
+.fab:hover{
+	color: #30C88F;
+}
+.icons{
+	margin-top: 57px;
+}
+.footer-nav{
+margin: 0 0 0 130px;
+}
+.footer-btn{
+	margin-bottom: 24px;
+}
+.footer-link{
+	color: #fff;
+}
+.footer-link:hover{
+	color: #30C88F;
+}
+
+@media (min-width: 320px) and (max-width: 765px){
+	
+	.navbar{
+		padding: 22px 24px;
+		
+	}
+	.navbar-nav ,.nav-btn{
+		display: none;
+		margin: 0;
+	}
+	#navbar-nav{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: linear-gradient(180deg, #2D314D 0%, rgba(45, 49, 77, 0.0001) 100%);
+		z-index: 5;
+		text-align: center;
+		color: #2D314D;
+		padding: 24px;
+		height: 100vh;
+		font-size: 18px;
+		
+		
+	}
+	.white{
+		background-color: #fff;
+		padding: 32px;
+		border-radius: 4px;
+	}
+	.fa-bars{
+		color: #2D314D;
+		font-size: 24px;
+		font-weight: 100;
+	}
+
+	.main-title{
+		font-size: 40px;
+	}
+	.easybank-choice-title{
+		font-size: 32px;
+	}
+	.easybank-choice-text{
+		width: 100%;
+	}
+	main{
+		padding: 322px 24px 0 24px;
+		background-image: url('./img/phones.png'), url('./img/hero-desktop-bg.png');
+		background-repeat: no-repeat;
+		background-position: center top -57px, right top;
+		background-size: contain , 485px 248px;
+		position: relative;
+		background-color: #fff;
+	}
+	.left{
+	
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.easybank-choice{
+		padding: 64px 24px;
+	}
+	.reason p{
+		margin-bottom: 2rem;
+	}
+	.latest-articles{
+		padding: 88px 24px 112px 24px;
+		background-color: #fff;
+	}
+	footer{
+		padding: 40px 78px;
+	}
+	.nav-item{
+		margin: 0;
+		
+	}
+	.product{
+		font-size: 15px;
+	}
+	.article-item{
+		width: 316px;
+	}
+	.nav-link:hover .bottom-border{
+		display: none;
+	}
+	#toggle{
+		width: 20px;
+		height: 20px;
+		background-image: url('./img/toggler-open.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
