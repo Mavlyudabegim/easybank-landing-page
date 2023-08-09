@@ -1,5 +1,6 @@
 // it's show function
 function show(id, toggle) {
+    // declare some variable
     var x = document.getElementById(id);
     var toggle=document.getElementById(toggle);
     if (x.style.display === "none") {
