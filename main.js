@@ -1,7 +1,9 @@
-
+// it's show function
 function show(id, toggle) {
+    // declare some variable
     var x = document.getElementById(id);
-    var toggle=document.getElementById(toggle);
+    // var x
+    var toggle = document.getElementById(toggle);
     if (x.style.display === "none") {
       x.style.display = "block";
     
@@ -12,4 +14,4 @@ function show(id, toggle) {
       toggle.style.backgroundImage="url('./img/toggler-open.svg')";
     }
   }
- 
+ //end function 
