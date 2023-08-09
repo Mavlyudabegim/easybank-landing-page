@@ -14,4 +14,4 @@ function show(id, toggle) {
       toggle.style.backgroundImage="url('./img/toggler-open.svg')";
     }
   }
- 
+ //end function 
