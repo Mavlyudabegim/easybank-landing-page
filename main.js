@@ -1,4 +1,4 @@
-
+// it's show function
 function show(id, toggle) {
     var x = document.getElementById(id);
     var toggle=document.getElementById(toggle);
